@@ -21,6 +21,29 @@ Here are the key props/functions used in the InputField:
 - **invalid** → Boolean to show error state  
 - **helperText** → Additional helper or error text  
 
+## Approach
+
+1. **Component-first**  
+   Each component has its own folder containing:
+   - The component file (`.tsx`)
+   - Styling (`.css`)
+   - Storybook story (`.stories.tsx`)  
+
+2. **Reusable & Modular**  
+   Components are designed to be reusable across projects, keeping code DRY and consistent.
+
+3. **Storybook Documentation**  
+   Each component has interactive stories demonstrating props, behaviors, and variations.
+
+4. **Styling Consistency**  
+   CSS or Tailwind is used to maintain a consistent design system across components.
+
+5. **Professional Workflow**  
+   - Git initialized with `.gitignore`  
+   - Components committed with meaningful messages  
+   - Remote GitHub repository linked  
+   - Storybook deployed via GitHub Pages for live demonstration
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
